@@ -1,0 +1,149 @@
+body {
+    font-family: "Miriam Libre";
+    margin: 36px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul.nav {
+    display: flex;
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+}
+
+ul.nav li {
+    flex: 1;
+    font-size: 1.4em;
+}
+
+h1 {
+    font-size: 1em;
+    margin: 0;
+}
+
+div.footer {
+    margin-top: 100px;
+    display: flex;
+    border-top: 1px solid black;
+    font-weight: bold;
+}
+
+div.footer p {
+    flex: 1;
+}
+
+p.facebook {
+    text-align: left;
+}
+
+div.content {
+    display: flex;
+}
+
+div.content div.column {
+    flex: 1;
+    margin-left: 16px;
+}
+
+div.profile-image {
+    max-width: 600px;
+}
+
+ul.details {
+    display: flex;
+}
+
+ul.details li {
+    flex: 1;
+}
+
+div.answer {
+    font-weight: bold;
+}
+
+h2 {
+    margin: 0;
+    font-size: 4em;
+}
+
+.kitten-info p {
+    font-size: 1.2em;
+}
+
+ul.scales {
+    margin-top: 40px;
+}
+
+ul.scales li {
+    position: relative;
+    height: 50px;
+    border-top: 1px solid black;
+}
+
+ul.scales li div.min {
+    position: absolute;
+    right: 0; top: 5px;
+}
+
+ul.scales li div.max {
+    position: absolute;
+    left: 0; top: 5px;
+}
+
+ul.scales li div.point {
+    position: absolute;
+    right: 50%; top: -10px;
+    width: 20px; height: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+ul.scales li div.point-10 {
+    right: 10%;
+}
+
+ul.scales li div.point-20 {
+    right: 20%;
+}
+
+ul.scales li div.point-30 {
+    right: 30%;
+}
+
+ul.scales li div.point-40 {
+    right: 40%;
+}
+
+ul.scales li div.point-50 {
+    right: 50%;
+}
+
+ul.scales li div.point-60 {
+    right: 60%;
+}
+
+ul.scales li div.point-70 {
+    right: 70%;
+}
+
+ul.scales li div.point-80 {
+    right: 80%;
+}
+
+ul.scales li div.point-90 {
+    right: 90%;
+}
+
+
